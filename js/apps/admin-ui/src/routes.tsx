@@ -16,6 +16,7 @@ import realmRoleRoutes from "./realm-roles/routes";
 import realmSettingRoutes from "./realm-settings/routes";
 import realmRoutes from "./realm/routes";
 import sessionRoutes from "./sessions/routes";
+import newEntryRoutes from "./newentry/routes";
 import userFederationRoutes from "./user-federation/routes";
 import userRoutes from "./user/routes";
 import pageRoutes from "./page/routes";
@@ -48,6 +49,7 @@ export const routes: AppRouteObject[] = [
   ...realmRoutes,
   ...realmSettingRoutes,
   ...sessionRoutes,
+  ...newEntryRoutes,
   ...userFederationRoutes,
   ...userRoutes,
   ...groupsRoutes,

@@ -82,6 +82,7 @@ export const PageNav = () => {
     "query-users",
     "query-clients",
     "view-events",
+    // "view-new-entry",
   );
 
   const showConfigure = hasSomeAccess(
@@ -112,6 +113,7 @@ export const PageNav = () => {
               <LeftNav title="groups" path="/groups" />
               <LeftNav title="sessions" path="/sessions" />
               <LeftNav title="events" path="/events" />
+              <LeftNav title="New Entry" path="/newentry" />
             </NavGroup>
           )}
 

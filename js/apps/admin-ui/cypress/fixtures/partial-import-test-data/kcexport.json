@@ -52,7 +52,7 @@
         "client" : {
           "mynewrealm-realm" : [ "create-client", "view-events", "manage-events", "view-realm", "view-identity-providers", "view-clients", "manage-realm", "manage-clients", "impersonation", "view-users", "manage-identity-providers", "manage-users" ],
           "demo-realm" : [ "view-clients", "view-users", "manage-realm", "manage-clients", "impersonation", "view-identity-providers", "manage-events", "manage-identity-providers", "view-realm", "manage-users", "create-client", "view-events" ],
-          "master-realm" : [ "view-clients", "impersonation", "manage-users", "manage-clients", "view-identity-providers", "manage-identity-providers", "view-realm", "manage-realm", "create-client", "view-users", "manage-events", "view-events" ]
+          "master-realm" : [ "view-clients", "impersonation", "manage-users", "manage-clients", "view-identity-providers", "manage-identity-providers", "view-realm", "manage-realm", "create-client", "view-users", "manage-events", "view-events", "view-new-entry" ]
         }
       }
     }, {
